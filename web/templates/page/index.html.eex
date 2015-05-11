@@ -1,0 +1,10 @@
+<div id="messages"></div>
+<input id="chat-input" type="text"></input>
+<body>
+
+
+<%= @inner %>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script>require("web/static/js/app")</script>
+
